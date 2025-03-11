@@ -1,7 +1,0 @@
-{
-  "resources/css/quavi.css": {
-    "file": "assets/quavi.css",
-    "src": "resources/css/quavi.css",
-    "isEntry": true
-  }
-}

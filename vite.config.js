@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
+import tailwindcss from "@tailwindcss/vite";
 import laravel from 'laravel-vite-plugin';
 import path from 'path';
-import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from 'vite';
 
 export default defineConfig({
     plugins: [
@@ -20,8 +20,8 @@ export default defineConfig({
                 quaviCSS: path.resolve(__dirname, 'resources/css/quavi.css'),
             },
             output: {
-              assetFileNames: 'assets/quavi.css',
+                assetFileNames: 'assets/quavi.css',
             }
-          }
+        }
     }
 });
